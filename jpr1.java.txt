@@ -1,0 +1,9 @@
+package jpr1;
+
+public class jpr {
+    public static void main(String[] args) {
+        System.out.println("Suraj"+" Suraj@gmail.com"+"41"+" 9665520668");
+        System.out.println("Suyash"+"Suyash@gmail.com"+" 42"+" 966577989");
+        System.out.println("Anup"+" Anup@gmail.com"+" 43"+" 996735449");
+        System.out.println("Isha"+" Isha@gmail.com"+" 44"+" 9028797656");
+        System.out.println("Harshad"+" Harshad@gmail.com"+" 45"+"9146803264");
