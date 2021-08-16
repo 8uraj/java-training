@@ -1,0 +1,42 @@
+19)
+a)if number is 3 the output will be:
+second string
+third string
+b)yes the output is what i predicted i.e second string third string
+because outer if contains condition aNumber>=0 and 3 is >=0 so it will enter in this block...
+it contains inner if statement which has condition aNumber==0 but 3is not equals to 0 the condition is false it executes else block and print second string
+after else block third string is printed
+c)
+if(aNumber >= 0){
+            if(aNumber==0)
+                  System.out.println("first string"); //indentations to identify code snippet clearly
+            else
+                  System.out.println("second string");
+            System.out.println("third string");
+   }
+d) 
+if(aNumber >= 0){
+            if(aNumber==0){
+                System.out.println("first string");
+            }
+            else{
+                System.out.println("second string");
+            }
+            System.out.println("third string");
+        }
+
+
+20)
+1) The most basic control flow statement supported by java programming is the if statement.
+2) The switch statement allows for any number of possible execution paths.
+3) The do while statement is similar to the while statement , but evaluates its expression at the end of the loop.
+4) We can write infite loop using for  statement by leaving 3 conditions of for loop empty. 
+     for(; ; ){
+            System.out.println("Infinite");
+        }
+
+5) We can write infite loop using while statement by giving true in while loop condition.
+   while(true)
+  {
+        System.out.println("Infinite");
+  }
