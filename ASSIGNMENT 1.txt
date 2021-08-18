@@ -1,43 +1,14 @@
-// Java program to print reverse of words in a string.
-import java.io.*;
-import java.util.*;
-import java.lang.*;
+1) Reverse a String and Print it on Console "JAVA Skills"
+package com.google;
 
-class GFG
-{
-static String wordReverse(String str)
-{
-	int i = str.length() - 1;
-	int start, end = i + 1;
-	String result = "";
-	
-	while(i >= 0)
-	{
-		if(str.charAt(i) == ' ')
-		{
-			start = i + 1;
-			while(start != end)
-				result += str.charAt(start++);
-			
-			result += ' ';
-			
-			end = i;
-		}
-		i--;
-	}
-	
-	start = 0;
-	while(start != end)
-		result += str.charAt(start++);
-	
-	return result;
-}
+public class Ass1 {
+    public static void main(String[] args) {
 
-public static void main(String[] args)
-{
-	String str = "JAVA SKILLS";
-	
-	System.out.print(wordReverse(str));
+        String myStr="JavaSkills";
+
+        for(int i=myStr.length()-1; i>=0; i--)//last index of string is its length-1 and first index starts with o
+        {
+            System.out.print(myStr.charAt(i));
+        }
+    }
 }
-}
-// Class

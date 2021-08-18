@@ -1,12 +1,14 @@
-package Calendar;
+)Assign String to x variable in DD-MM-YYYY format extract and print Year from String
+package com.google;
 
-import java.text.SimpleDateFormate;
+public class Ass2 {
+    public static void main(String[] args) {
+        String x="27-11-2003";
+        // using split method on string object...it return array of splited characters
+        String d=x.split("-")[0];// extract date
+        String m=x.split("-")[1];// extract month
+        String y=x.split("-")[2];// extract year
 
-public class dateDEmostring {
-public static void main(string[] args) {
-	SimpleDateFormate sdf=new SimpleDateFormate("dd/MM/yyy" )
-			string date sdf.format(new Date());
-	System.out.println(date);
-	
-}
+        System.out.println("Year : "+y);
+    }
 }
