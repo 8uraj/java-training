@@ -1,0 +1,12 @@
+package Calendar;
+
+import java.text.SimpleDateFormate;
+
+public class dateDEmostring {
+public static void main(string[] args) {
+	SimpleDateFormate sdf=new SimpleDateFormate("dd/MM/yyy" )
+			string date sdf.format(new Date());
+	System.out.println(date);
+	
+}
+}
