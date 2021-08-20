@@ -42,7 +42,7 @@ public class JavaMethods {
         JPR19.course();//yes we can call static method from this static method
         System.out.println("This course will give you knowledge about java and advance java ");
         //lets call instance method here
-        JavaTraining ob1=new JPR19();
+        JavaTraining ob1=new JavaTraining();
         ob1.greet(); // instance method but using object only
     }
 
