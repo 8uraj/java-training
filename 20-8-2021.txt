@@ -39,7 +39,7 @@ public class JavaMethods {
 
     static void outcome(){
         //lets call static method here
-        JPR19.course();//yes we can call static method from this static method
+       JavaTraining.course();//yes we can call static method from this static method
         System.out.println("This course will give you knowledge about java and advance java ");
         //lets call instance method here
         JavaTraining ob1=new JavaTraining();
@@ -50,7 +50,7 @@ public class JavaMethods {
     void instanceM(){
         System.out.println("Instance method called using object of this class only...");
         //lets call static method here
-        JPR19.course(); // static method inside insatance method
+      JavaTraining.course(); // static method inside insatance method
     }
 
     public static void main(String[] args) {
