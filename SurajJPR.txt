@@ -1,0 +1,84 @@
+/**- Perform Arithmetic operation for Method Overloading & Overriding
+ * 
+ */
+package Java_Training;
+
+/**
+ * @author Suraj
+ *
+ */
+public class SurajJPR {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MethodOverloading ob2=new MethodOverloading();
+		System.out.println(ob2.sub(65, 20));
+
+		System.out.println(ob2.mul(15,76,40));
+		System.out.println(ob2.add(34,18,64,23));
+        System.out.println(ob2.div(24,12));
+		
+		
+		Substraction ob1 = new Substraction();
+		System.out.println(ob1.ArithOper(45,23));
+		
+	}
+
+} 
+
+//method overloading example 
+class MethodOverloading
+{
+	int sub(int a, int b)
+	{
+		return a-b;
+	}
+	
+	
+	int mul (int a, int b, int c)
+	{
+		return a*b*c;
+	}
+	
+	int add (int a, int b, int c, int d)
+	{
+		return a+b+c+d;
+	}
+	
+	float div (float a, float b)
+	{
+		return a/b;
+	}
+
+} // class method overloading
+
+
+// method overriding example
+
+class Addition
+{
+	int no1, no2;
+
+	int ArithOper(int a, int b)	//addition of the two numbers
+	{
+		no1=a;
+		no2=b;
+		return (no1+no2);
+	}	
+	
+}
+
+class Substraction extends Addition 
+{
+    int ArithOper(int a, int b)	//mathOperation is overridden to perform subtraction of two integers
+   {
+	no1=a;
+	no2=b;
+	return (no1-no2);
+   }
+} //end SurajJPR
+
